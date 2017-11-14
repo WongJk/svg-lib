@@ -1,0 +1,53 @@
+svg {
+
+  .grid-line {
+    stroke: #eee;
+  }
+
+  .node {
+
+    cursor: pointer;
+
+    text {
+      font-size: 18px;
+      // fill: #212121;
+      fill: #ccc;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+      user-select: none;
+    }
+  }
+
+  .node-body {
+    fill: #fff;
+    stroke: #ccc;
+    stroke-width: 2px;
+
+    &:hover {
+      stroke: #aaa;
+    }
+  }
+
+  .slot {
+    fill: #fff;
+    stroke: #aaa;
+    cursor: pointer;
+
+    &:hover {
+      stroke-width: 2px;
+      stroke: blue;
+    }
+  }
+
+  .slot-line {
+    fill: none;
+    stroke: #777;
+    stroke-width: 2px;
+
+    &:hover {
+      stroke: #222;
+    }
+  }
+
+}

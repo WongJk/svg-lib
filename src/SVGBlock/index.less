@@ -1,0 +1,65 @@
+.svg-block {
+
+  position: relative;
+  height: 100%;
+  width: 100%;
+
+  .tool-bar {
+    position: absolute;
+
+    left: 10px;
+    bottom: 10px + 50;
+    width: 200px;
+    background-color: #fff;
+    padding: 0 10px;
+  }
+
+  .button-bar {
+    position: fixed;
+    left: 50px;
+    top: 50px;
+    width: 100px;
+    height: 50px;
+    background-color: #f9f9f9;
+    box-shadow: 0 -1px 3px rgba(0,0,0,.1);
+    text-align: center;
+    font-size: 30px;
+    line-height: 50px;
+
+    i.anticon {
+      cursor: pointer;
+
+      &:hover {
+        font-weight: bold;
+      }
+    }
+  }
+
+  .context-menu {
+    position: fixed;
+    width: 150px;
+    box-shadow: 0 0 1px 1px #aaa;
+    background-color: #fff;
+
+    display: none;
+    padding: 10px 0;
+
+    p {
+      font-size: 12px;
+      height: 34px;
+      line-height: 34px;
+      color: #222;
+      padding: 0 20px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #eee;
+      }
+    }
+  }
+}
+
+.svg-box {
+  width: 100%;
+  height: 100%;
+}
